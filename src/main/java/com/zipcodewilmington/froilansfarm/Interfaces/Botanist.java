@@ -14,6 +14,8 @@ public interface Botanist <CropType extends Crop>{
            row = new CropRow();
        }
         row.add(crop);
+        row.add(crop);
+        row.add(crop);
        return row;
     }
 
